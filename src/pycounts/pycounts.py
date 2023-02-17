@@ -1,7 +1,7 @@
 from collections import Counter
 from string import punctuation
 
-def load_text(input_file):
+def load_text(input_file, encoding='utf-8'):
     """Load text from a text file and return as a string.
 
     Parameters
@@ -18,7 +18,7 @@ def load_text(input_file):
     --------
     >>> load_text("text.txt")
     """
-    with open(input_file, "r") as file:
+    with open(input_file, "r", encoding=encoding) as file:
         text = file.read()
     return text
     

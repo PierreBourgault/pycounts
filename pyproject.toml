@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pycounts"
 version = "0.1.0"
-description = "pycounts_pierrex"
+description = "pycounts"
 authors = ["Pierre Bourgault"]
 license = "MIT"
 readme = "README.md"
